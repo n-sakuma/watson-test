@@ -33,6 +33,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'watson-ruby'  # Githubのissue連携
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
